@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height: 6.25rem;
+}
+
+.navbar-dark{
+  background-color: #333;
+  padding: 0 1rem;
+  height: 32px;
+}
+
+.my_nav-link{
+  display: initial;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav:before {
+      border-radius: 0.5px;
+      color: #fff;
+      content: "\007C";
+      margin-left: 10px;
+      margin-right: 10px;
+}
